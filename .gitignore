@@ -1,0 +1,12 @@
+.venv/
+.python/
+.gradio/
+__pycache__/
+data/
+runs/
+deepfillv2_colab/
+*.cache
+temp_*_input.png
+temp_*_mask.png
+temp_*_cleaned.png
+yolov8s.pt
