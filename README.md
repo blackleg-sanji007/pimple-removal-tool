@@ -12,7 +12,7 @@ python -m venv .venv
 .\.venv\Scripts\python.exe app.py
 ```
 
-Open the local address printed by Gradio (usually http://127.0.0.1:7860), upload a face image, and click **Remove Pimples**. Press Ctrl+C to stop the app.
+Open the local address printed by Gradio , upload a face image, and click **Remove Pimples**. Press Ctrl+C to stop the app.
 
 The trained detector is already included at `models/acne04_60_best.pt`, so uploading a new image does not retrain it. The first launch downloads DeepFillv2's inference code and pretrained weights and needs internet access. Later launches reuse those files. OpenCV Telea is a classical algorithm and needs no trained checkpoint. Processing may take longer on a CPU.
 
