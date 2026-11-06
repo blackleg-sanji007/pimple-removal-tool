@@ -1,0 +1,14 @@
+{
+  "model": "models/acne04_60_best.pt",
+  "dataset": "Acne04 YOLOv8",
+  "split": "test",
+  "images": 146,
+  "labeled_instances": 1776,
+  "image_size": 640,
+  "batch_size": 16,
+  "precision": 0.4238901747626116,
+  "recall": 0.42736486486486486,
+  "map50": 0.3279470218627706,
+  "map50_95": 0.08506271986923437,
+  "command": "YOLO('models/acne04_60_best.pt').val(data='data/acne_dataset/data.yaml', split='test', imgsz=640, batch=16, workers=0, plots=False)"
+}

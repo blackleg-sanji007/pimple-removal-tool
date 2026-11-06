@@ -87,6 +87,14 @@ The example below is an actual inference on `levle1_203.jpg` from the held-out A
 
 This is a visual comparison of one image. Some lesions can remain, and an overly broad mask can alter unaffected skin. The detection metrics above measure acne boxes, not the quality of the restored skin.
 
+## Project write-up
+
+The [full report](writeup/main.pdf) and its [LaTeX source](writeup/main.tex)
+describe the problem, method, 60-epoch training results, held-out test
+evaluation, visual comparison, limitations, and complete project-authored
+source code appendix. The [write-up folder](writeup/) includes its figures
+and CVPR 2026 template files.
+
 ## Source credit
 
 DeepFillv2 inference code and weights come from [vrindaprabhu/deepfillv2_colab](https://github.com/vrindaprabhu/deepfillv2_colab). The OpenCV baseline, comparison interface, training script, and 60-epoch detector checkpoint are included in this repository.

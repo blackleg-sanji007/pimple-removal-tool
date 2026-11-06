@@ -1,0 +1,10 @@
+# LaTeX build intermediates
+*.aux
+*.bbl
+*.blg
+*.brf
+*.log
+*.out
+*.xdv
+*.synctex.gz
+preview/
