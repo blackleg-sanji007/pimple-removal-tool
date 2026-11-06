@@ -89,4 +89,4 @@ This is a visual comparison of one image. Some lesions can remain, and an overly
 
 ## Source credit
 
-This app's YOLOv8s and DeepFillv2 approach was adapted from [architk22/EE604-Course-Project](https://github.com/architk22/EE604-Course-Project). DeepFillv2 inference code and weights come from [vrindaprabhu/deepfillv2_colab](https://github.com/vrindaprabhu/deepfillv2_colab). The OpenCV baseline, comparison interface, training script, and 60-epoch detector checkpoint are included in this repository.
+DeepFillv2 inference code and weights come from [vrindaprabhu/deepfillv2_colab](https://github.com/vrindaprabhu/deepfillv2_colab). The OpenCV baseline, comparison interface, training script, and 60-epoch detector checkpoint are included in this repository.
